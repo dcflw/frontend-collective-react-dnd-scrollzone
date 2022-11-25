@@ -6,7 +6,7 @@ import raf from 'raf';
 import getDisplayName from 'react-display-name';
 import { DragDropContextConsumer } from 'react-dnd';
 import hoist from 'hoist-non-react-statics';
-import { noop, intBetween, getCoords } from './util';
+import { noop, intBetween, getCoords } from './util.js';
 
 const DEFAULT_BUFFER = 150;
 
