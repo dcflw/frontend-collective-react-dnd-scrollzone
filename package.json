@@ -1,7 +1,8 @@
 {
-  "name": "frontend-collective-react-dnd-scrollzone",
+  "name": "@dcflw/frontend-collective-react-dnd-scrollzone",
   "version": "1.0.2",
   "description": "A cross browser solution to scrolling during drag and drop.",
+  "type": "module",
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib && babel src --out-dir lib",
@@ -44,6 +45,9 @@
     "raf": "^3.2.0",
     "react-display-name": "^0.2.0"
   },
+  "browserslist": [
+    "last 2 versions"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
